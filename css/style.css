@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2.8rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+
+}
+
+
+#head-background-container {
+    /* background-color: red !important; */
+ background-image: url('../img/backgroind.jpg');
+    background-size:100% 60%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 75rem;
+    width: 100%;
+    border: 1px solid;
+}
+
+#head-logo-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.img-logo{
+    width: 9rem !important;
+    height: 5rem !important;
+}
+
+.img-trs-icon{
+    width: 6rem !important;
+    height: 6rem !important;
+    margin: 0rem 2.5rem 0rem 1rem;
+}
+
+.img-palladium-icon{
+    width: 12rem !important;
+    height: 5rem !important;
+    
+}
+
+
+#head-title-container {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin-top: 4rem;
+}
+
+.background-blue-text{
+    color:white;
+    background-color: #004ba0!important;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 1rem 0 1rem;
+    
+}
+
+#hotel-logos-container{
+margin-top: 14rem;
+}
+
+
+
+.form-title-container{
+    padding-bottom: 1rem;
+}
+.form-title{
+    color:#004ba0 !important;
+text-transform: uppercase !important;
+font-family: 'Roboto', sans-serif !important;
+font-weight: 500 !important;
+text-align: left !important;
+font-size: 1.3rem !important;
+}
+#form-container{
+    background-color: #ffffff !important;
+    padding: 2rem;
+    width: 75% !important;
+    height: 38rem !important;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6) !important;
+    margin-top: 5rem;
+    margin-right: 2rem !important;
+}
+
+form{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important; 
+}
+
+.input{
+    
+    width: 100%;
+    border: none;
+    outline: none;
+    color: red !important;
+    cursor: inherit;
+    font: inherit;
+    height: 100%;
+    box-sizing: border-box !important;
+    margin-top: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 100 !important;
+}
+
+hr {
+    border-top: none #535353 !important;
+    border-left: none #535353 !important;
+    border-right: none #535353 !important;
+    border-bottom: 1px solid #535353 !important;
+    bottom: 8px !important;
+    box-sizing: content-box !important;
+    margin: 0px !important;
+    width: 100%;
+}
+
+.btn-primary{
+    color:white !important;
+    background-color: #004ba0 !important;
+    text-transform: uppercase !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+    height: 4rem;
+    width: 7rem;
+    font-size: 1.5rem !important;
+}
+
+.button-container{
+    display: flex !important;
+    justify-content: center;
+}
+
+.input-container {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.sub-title-container{
+    padding-top: 15rem !important;
+    width: 100%;
+}
+
+.sub-title{
+    color:#004ba0 !important;
+    font-family: 'Roboto', sans-serif !important;
+font-weight: 100 !important;
+text-align: left !important;
+font-size: 1.8rem !important;
+}
