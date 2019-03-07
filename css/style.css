@@ -235,7 +235,6 @@ hr {
     }
 }
 
-
 /*======== 768px ======== */
 
 @media screen and (max-width: 768px) {
@@ -502,6 +501,10 @@ hr {
     width: 100%;
 }
 
+.wrapper-container {
+    margin: 0 1rem 0 1rem !important;
+}
+
 .column-container {
     margin-top: 1rem !important;
     margin-bottom: 6rem !important;
@@ -631,6 +634,9 @@ hr {
         margin-top: 0.5rem !important;
         margin-bottom: 5rem !important;
     }
+    .wrapper-container {
+        margin: 0 0.5rem 0 0.5rem !important;
+    }
     .text-title {
         font-size: 2.2rem !important;
     }
@@ -650,62 +656,46 @@ hr {
     .card-head {
         height: 6%;
     }
-
     .card-price {
         height: 19rem;
         width: 19rem;
-       
     }
-    
     .text-price {
         font-size: 2.8rem !important;
     }
     .text-detalle {
         font-size: 1.2em !important;
-        
     }
-
     .btn-success {
-        
         height: 3.5rem;
         width: 10rem;
         font-size: 1.8rem !important;
     }
-    
     .text-footer-title {
-    
         font-size: 1.2rem !important;
     }
-    
     .text-footer {
-    
         font-size: 0.85rem !important;
         font-weight: 100;
         margin-top: 0.5rem;
-       
     }
 }
-
-
 
 /* ======= 768px =========*/
 
 @media screen and (max-width:768px) {
-    
     .cards-container {
-       width: 70% !important;
-       margin-top: 4rem !important;
+        width: 70% !important;
+        margin-top: 4rem !important;
     }
-    .wrapper-container{
+    /*  .wrapper-container{
         margin: 0 !important;
         padding: 0 !important;
-    }
-
+    } */
     .column-container {
         margin-top: 1rem !important;
         margin-bottom: 3rem !important;
     }
-    
     .text-title {
         font-size: 1.6rem !important;
     }
@@ -725,99 +715,66 @@ hr {
     .card-head {
         height: 5%;
     }
-
     .card-price {
         height: 17rem;
         width: 17rem;
-       
     }
-    
     .text-price {
         font-size: 2.5rem !important;
     }
     .text-detalle {
         font-size: 1.1em !important;
-        
     }
-
     .btn-success {
-        
         height: 3.3rem;
         width: 9.8rem;
         font-size: 1.5rem !important;
     }
-    
     .text-footer-title {
-    
         font-size: 1.1rem !important;
     }
-    
     .text-footer {
-    
         font-size: 0.80rem !important;
         font-weight: 100;
         margin-top: 0.5rem;
-       
     }
 }
-
-
 
 /*======== 548px ======== */
 
 @media screen and (max-width:548px) {
-    
     .cards-container {
-       width: 129vw !important;
+        width: 129vw !important;
     }
-   
     .card-img {
         height: 32rem;
     }
-    
     .card-price {
         height: 16rem;
         width: 16rem;
-       
     }
-    
     .text-price {
         font-size: 2.2rem !important;
     }
     .text-detalle {
         font-size: 1em !important;
-        
     }
-
     .btn-success {
-        
         height: 2.9rem;
         width: 8rem;
         font-size: 1.3rem !important;
     }
-    
     .text-footer-title {
-    
         font-size: 1rem !important;
     }
-    
     .text-footer {
-    
         font-size: 0.75rem !important;
-       
     }
 }
-
-
 
 /*======== 375px ======== */
 
 @media screen and (max-width:375px) {
-    
-
-
-    
-    
     .text-title {
         font-size: 1.6rem !important;
     }
@@ -837,70 +794,126 @@ hr {
     .card-head {
         height: 7%;
     }
-
     .card-price {
         height: 15rem;
         width: 15rem;
-       
     }
-    
     .btn-success {
-        
         height: 2.4rem;
         width: 7.5rem;
         font-size: 1.1rem !important;
     }
-    
-    
 }
-
 
 /*======== 320px ======== */
 
 @media screen and (max-width:320px) {
-    
-
-
-    
-    
     .text-title {
         font-size: 1.4rem !important;
     }
     .text-sub-title {
         font-size: 0.9rem !important;
     }
-    
     .card-img {
         height: 28rem;
     }
     .card-head {
         height: 8%;
     }
-
     .card-price {
         height: 14rem;
         width: 14rem;
-       
     }
-    
     .btn-success {
-        
         height: 2.3rem;
         width: 6.5rem;
         font-size: 1rem !important;
     }
-
     .text-footer-title {
-    
         font-size: 0.95rem !important;
     }
-    
     .text-footer {
-    
         font-size: 0.65rem !important;
-        
-       
     }
-    
-    
+}
+
+/*  C A R D S   Q U E R Y S   E N D  */
+
+/* F O O T E R */
+
+.foot {
+    background-color: rgba(0, 0, 0, .03);
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 5rem;
+}
+
+.footer-text {
+    color: #535353 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center !important;
+}
+
+/* /* F O O T E R   MEDIA QUERYS */
+
+/* ======= 1140px ======= */
+
+@media screen and (max-width: 1140px) {
+    .foot {
+        height: 4.5rem;
+    }
+    .footer-text {
+        font-size: 0.7rem !important;
+    }
+}
+
+/* ======= 768px ======= */
+
+@media screen and (max-width: 768px) {
+    .foot {
+        height: 4.2rem;
+    }
+    .footer-text {
+        font-size: 0.5rem !important;
+    }
+}
+
+/* ======= 548px ======= */
+
+@media screen and (max-width: 548px) {
+    .foot {
+        width: 129vw !important;
+        height: 4.2rem;
+    }
+    .footer-text {
+        font-size: 0.4rem !important;
+    }
+}
+
+
+/* ======= 375px ======= */
+
+@media screen and (max-width: 375px) {
+    .foot {
+        height: 4.1rem;
+    }
+    .footer-text {
+        font-size: 0.3rem !important;
+    }
+}
+
+
+/* ======= 320px ======= */
+
+@media screen and (max-width: 320px) {
+    .foot {
+        height: 3.9rem;
+    }
+    .footer-text {
+        font-size: 0.05rem !important;
+    }
 }
