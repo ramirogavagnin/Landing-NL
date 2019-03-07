@@ -1,108 +1,114 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-h1{
-    font-size: 2.8rem !important;
-    font-family: 'Roboto', sans-serif !important;
-    font-weight: 500 !important;
-
-}
-
+/* HEADER */
 
 #head-background-container {
-    /* background-color: red !important; */
- background-image: url('../img/backgroind.jpg');
-    background-size:100% 60%;
+    background-image: url('../img/backgroind.jpg');
+    background-size: 100% 60%;
     background-position: center top;
     background-repeat: no-repeat;
-    height: 75rem;
+    height: 70rem;
     width: 100%;
-    border: 1px solid;
+   
 }
 
 #head-logo-container {
-
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
-.img-logo{
+.img-logo {
     width: 9rem !important;
     height: 5rem !important;
 }
 
-.img-trs-icon{
+#head-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3.5rem;
+}
+
+.background-blue-text {
+    color: white;
+    background-color: #004ba0!important;
+    text-transform: uppercase;
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 2.8rem !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 3.4rem solid #004ba0;
+    border-left: 1.2rem solid transparent;
+}
+
+.divider {
+    display: flex !important;
+}
+
+/* LOGOS HOTELS */
+
+#hotel-logos-container {
+    margin-top: 12rem;
+}
+
+.img-trs-icon {
     width: 6rem !important;
     height: 6rem !important;
     margin: 0rem 2.5rem 0rem 1rem;
 }
 
-.img-palladium-icon{
+.img-palladium-icon {
     width: 12rem !important;
     height: 5rem !important;
-    
 }
 
+/* FORM */
 
-#head-title-container {
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-margin-top: 4rem;
-}
-
-.background-blue-text{
-    color:white;
-    background-color: #004ba0!important;
-    text-transform: uppercase;
-    text-align: right;
-    padding: 0 1rem 0 1rem;
-    
-}
-
-#hotel-logos-container{
-margin-top: 14rem;
-}
-
-
-
-.form-title-container{
+.form-title-container {
     padding-bottom: 1rem;
 }
-.form-title{
-    color:#004ba0 !important;
-text-transform: uppercase !important;
-font-family: 'Roboto', sans-serif !important;
-font-weight: 500 !important;
-text-align: left !important;
-font-size: 1.3rem !important;
+
+.form-title {
+    color: #004ba0 !important;
+    text-transform: uppercase !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    font-size: 1.3rem !important;
 }
-#form-container{
+
+#form-container {
     background-color: #ffffff !important;
     padding: 2rem;
     width: 75% !important;
     height: 38rem !important;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6) !important;
-    margin-top: 5rem;
-    margin-right: 2rem !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6) !important;
+    margin-top: 3.5rem;
+    margin-right: 2rem;
 }
 
-form{
+form {
     display: flex !important;
     flex-direction: column !important;
-    justify-content: space-around !important; 
+    justify-content: space-around !important;
 }
 
-.input{
-    
+.input {
     width: 100%;
     border: none;
     outline: none;
-    color: red !important;
+    color: black !important;
     cursor: inherit;
     font: inherit;
     height: 100%;
@@ -124,8 +130,8 @@ hr {
     width: 100%;
 }
 
-.btn-primary{
-    color:white !important;
+.btn-primary {
+    color: white !important;
     background-color: #004ba0 !important;
     text-transform: uppercase !important;
     font-family: 'Roboto', sans-serif !important;
@@ -135,7 +141,7 @@ hr {
     font-size: 1.5rem !important;
 }
 
-.button-container{
+.button-container {
     display: flex !important;
     justify-content: center;
 }
@@ -144,15 +150,422 @@ hr {
     margin: 1.5rem 0 1.5rem 0;
 }
 
-.sub-title-container{
+.sub-title-container {
     padding-top: 15rem !important;
     width: 100%;
 }
 
-.sub-title{
-    color:#004ba0 !important;
+.sub-title {
+    color: #004ba0 !important;
     font-family: 'Roboto', sans-serif !important;
-font-weight: 100 !important;
-text-align: left !important;
-font-size: 1.8rem !important;
+    font-weight: 100 !important;
+    text-align: left !important;
+    font-size: 1.8rem !important;
+}
+
+/* HEADER MEDIA QUERYS */
+
+/* ======= 1140px ======= */
+
+@media screen and (max-width: 1140px) {
+    #head-background-container {
+        background-size: 100% 55%;
+        height: 57rem;
+    }
+    #head-logo-container {
+        padding-top: 1.1rem;
+    }
+    .img-logo {
+        width: 8rem !important;
+        height: 4rem !important;
+    }
+    #head-title-container {
+        margin-top: 2.2rem;
+    }
+    .background-blue-text {
+        padding-right: 0.8rem;
+        font-size: 2rem !important;
+    }
+    #triangle-topright {
+        border-top: 2.4rem solid #004ba0;
+        border-left: 1rem solid transparent;
+    }
+    /* LOGOS HOTELS */
+    #hotel-logos-container {
+        margin-top: 9rem;
+    }
+    .img-trs-icon {
+        width: 3.8rem !important;
+        height: 3.8rem !important;
+        margin: 0rem 1.8rem 0rem 0.9rem;
+    }
+    .img-palladium-icon {
+        width: 10.5rem !important;
+        height: 3.5rem !important;
+    }
+    /* FORM */
+    .form-title-container {
+        padding-bottom: 0.3rem;
+    }
+    .form-title {
+        font-size: 0.9rem !important;
+        font-weight: 900 !important;
+    }
+    #form-container {
+        padding: 2rem;
+        width: 70% !important;
+        height: 32rem !important;
+        margin-top: 2rem;
+        margin-right: 1.6rem !important;
+    }
+    .input {
+        margin-top: 11px;
+        font-size: 1.2rem !important;
+    }
+    .btn-primary {
+        height: 3rem;
+        width: 6rem;
+        font-size: 1.2rem !important;
+    }
+    .sub-title-container {
+        padding-top: 11rem !important;
+        width: 100%;
+    }
+    .sub-title {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* ======= 960px =========*/
+
+@media screen and (max-width: 960px) {
+    #head-background-container {
+        background-size: 100% 60%;
+        height: 46rem;
+    }
+    #head-logo-container {
+        padding-top: 0.9rem;
+    }
+    .img-logo {
+        width: 7rem !important;
+        height: 3rem !important;
+    }
+    #head-title-container {
+        margin-top: 1.6rem;
+    }
+    .background-blue-text {
+        padding-right: 0.6rem;
+        font-size: 1.7rem !important;
+    }
+    #triangle-topright {
+        border-top: 2rem solid #004ba0;
+    }
+    /* LOGOS HOTELS */
+    .img-trs-icon {
+        width: 3.6rem !important;
+        height: 3.6rem !important;
+        margin: 0rem 1rem 0rem 0.8rem;
+    }
+    .img-palladium-icon {
+        width: 10.4rem !important;
+        height: 3.4rem !important;
+    }
+    /* FORM */
+    .form-title-container {
+        padding-bottom: 0.2rem;
+    }
+    .form-title {
+        font-size: 0.75rem !important;
+        font-weight: 500 !important;
+    }
+    #form-container {
+        padding: 2rem;
+        height: 30rem !important;
+        margin-top: 1.6rem;
+        margin-right: 1.6rem !important;
+    }
+    .input {
+        margin-top: 9px;
+        font-size: 1.060rem !important;
+    }
+    .btn-primary {
+        height: 2.7rem;
+        width: 5.7rem;
+        font-size: 1.2rem !important;
+    }
+    .sub-title-container {
+        padding-top: 9rem !important;
+        width: 100%;
+    }
+    .sub-title {
+        font-size: 1.160rem !important;
+    }
+}
+
+/*======== 768px ======== */
+
+@media screen and (max-width: 768px) {
+    #head-background-container {
+        background-size: 100% 32%;
+        height: 67rem;
+    }
+    #head-logo-container {
+        padding-top: 1.1rem;
+    }
+    .img-logo {
+        width: 7rem !important;
+        height: 3rem !important;
+    }
+    #head-title-container {
+        margin-top: 3.5rem;
+    }
+    .background-blue-text {
+        padding-right: 0.4rem;
+        font-size: 1.6rem !important;
+    }
+    #triangle-topright {
+        border-top: 1.8rem solid #004ba0;
+        border-left: 0.7rem solid transparent;
+    }
+    /* LOGOS HOTELS */
+    #hotel-logos-container {
+        margin-top: 0.8rem;
+    }
+    .img-trs-icon {
+        width: 3rem !important;
+        height: 3rem !important;
+        margin: 0rem 29.2rem 0rem 1rem;
+    }
+    .img-palladium-icon {
+        width: 9.5rem !important;
+        height: 2.5rem !important;
+    }
+    /* FORM */
+    .form-title-container {
+        padding-bottom: 0.3rem;
+    }
+    .form-title {
+        font-size: 1.3rem !important;
+        font-weight: 500 !important;
+    }
+    .row-form-container {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    #form-container {
+        padding: 2rem;
+        width: 70% !important;
+        height: 32rem !important;
+        margin: 0 !important;
+    }
+    .input {
+        margin-top: 11px;
+        font-size: 1.2rem !important;
+    }
+    .btn-primary {
+        height: 2.8rem;
+        width: 5.8rem;
+        font-size: 1.1rem !important;
+    }
+    .sub-title-container {
+        padding-top: 6rem !important;
+    }
+    .sub-title {
+        font-size: 1.5rem !important;
+        text-align: center !important;
+    }
+}
+
+/*======== 548px ======== */
+
+@media screen and (max-width: 548px) {
+    #head-background-container {
+        background-size: 100% 23%;
+        height: 64rem;
+        width: 129vw !important;
+    }
+    #head-logo-container {
+        padding-top: 1rem;
+    }
+    .img-logo {
+        width: 5rem !important;
+        height: 1.9rem !important;
+    }
+    #head-title-container {
+        margin-top: 1.8rem;
+    }
+    .background-blue-text {
+        padding-right: 0.1rem;
+        font-size: 1.2rem !important;
+    }
+    #triangle-topright {
+        border-top: 1.4rem solid #004ba0;
+        border-left: 0.6rem solid transparent;
+    }
+    /* LOGOS HOTELS */
+    #hotel-logos-container {
+        margin-top: 0.6rem;
+    }
+    .img-trs-icon {
+        width: 2rem !important;
+        height: 2rem !important;
+        margin: 0rem 20rem 0rem 1rem;
+    }
+    .img-palladium-icon {
+        width: 8.5rem !important;
+        height: 2rem !important;
+    }
+    /* FORM */
+    .form-title {
+        font-size: 1.1rem !important;
+        font-weight: 300 !important;
+    }
+    .row-form-container {
+        margin-top: 5rem;
+    }
+    #form-container {
+        width: 85% !important;
+    }
+    .sub-title-container {
+        padding-top: 5rem !important;
+    }
+    .sub-title {
+        font-size: 1.3rem !important;
+        text-align: center !important;
+    }
+}
+
+
+/*======== 375px ======== */
+
+@media screen and (max-width: 375px) {
+    #head-background-container {
+        background-size: 100% 23%;
+        height: 56rem;
+    
+    }
+    #head-logo-container {
+        padding-top: 1rem;
+    }
+    .img-logo {
+        width: 4.5rem !important;
+        height: 1.5rem !important;
+    }
+    #head-title-container {
+        margin-top: 1.4rem;
+    }
+    .background-blue-text {
+        padding-right: 0.1rem;
+        font-size: 1rem !important;
+    }
+    #triangle-topright {
+        border-top: 1.2rem solid #004ba0;
+        border-left: 0.5rem solid transparent;
+    }
+    /* LOGOS HOTELS */
+    #hotel-logos-container {
+        margin-top: 0.8rem;
+    }
+    .img-trs-icon {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+        margin: 0rem 17.5rem 0rem 0.5rem;
+    }
+    .img-palladium-icon {
+        width: 8rem !important;
+        height: 1.5rem !important;
+    }
+    /* FORM */
+    .form-title {
+        font-size: 0.9rem !important;
+        font-weight: 300 !important;
+    }
+    .row-form-container {
+        margin-top: 4rem;
+    }
+    #form-container {
+        width: 90% !important;
+        height: 30rem !important;
+    }
+
+    .input {
+        margin-top: 8px;
+        font-size: 1rem !important;
+    }
+    .sub-title-container {
+        padding-top: 4.5rem !important;
+    }
+    .sub-title {
+        font-size: 1.1rem !important;
+        text-align: center !important;
+    }
+}
+
+
+
+/*======== 320px ======== */
+
+@media screen and (max-width: 320px) {
+    #head-background-container {
+        background-size: 100% 23%;
+        height: 52rem;
+   border: 1px solid red;
+        
+    }
+    #head-logo-container {
+        padding-top: 0.7rem;
+    }
+    .img-logo {
+        width: 4rem !important;
+        height: 1.3rem !important;
+    }
+    #head-title-container {
+        margin-top: 1rem;
+    }
+    .background-blue-text {
+        padding-right: 0.1rem;
+        font-size: 0.9rem !important;
+    }
+    #triangle-topright {
+        border-top: 1rem solid #004ba0;
+        border-left: 0.4rem solid transparent;
+    }
+    /* LOGOS HOTELS */
+    #hotel-logos-container {
+        margin-top: 1rem;
+    }
+    .img-trs-icon {
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+        margin: 0rem 15rem 0rem 0.5rem;
+    }
+    .img-palladium-icon {
+        width: 6.5rem !important;
+        height: 1.5rem !important;
+    }
+    /* FORM */
+    .form-title {
+        font-size: 0.8rem !important;
+    }
+    .row-form-container {
+        margin-top: 3rem;
+    }
+    #form-container {
+   
+        height: 29rem !important;
+    }
+
+    .input {
+     
+        font-size: 0.9rem !important;
+    }
+    .sub-title-container {
+        padding-top: 3.8rem !important;
+    }
+    .sub-title {
+        font-size: 0.9rem !important;
+       
+    }
 }

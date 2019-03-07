@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,900" rel="stylesheet">
     <link rel="tab icon" href="./favicon.png">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -27,6 +27,7 @@
 <body>
 
     <div id="head-background-container">
+        <!-- HEADER CONTAINER -->
         <div class="container-fluid" id="head-logo-container">
             <img src="./img/palladium-group.png" class="img-fluid img-logo" alt="Palladium Group">
             <img src="./img/liberty-icon.jpg" class="img-fluid img-logo" alt="Liberty Operador Mayorista">
@@ -34,15 +35,29 @@
         </div>
 
         <div id="head-title-container">
-            <h1 class="background-blue-text"> TUS VACACIONES</h1>
-            <h1 class="background-blue-text"> EN PARAISOS NATURALES</h1>
-            <h1 class="background-blue-text"> A PRECIOS INCREIBLES</h1>
+            <div class="divider">
+                    <div id="triangle-topright"></div>
+                <h1 class="background-blue-text"> TUS VACACIONES</h1>
+            </div>
+
+            <div class="divider">
+                <div id="triangle-topright"></div>
+                <h1 class="background-blue-text"> EN PARAISOS NATURALES</h1>
+            </div>
+
+            <div class="divider">
+                    <div id="triangle-topright"></div>
+                <h1 class="background-blue-text"> A PRECIOS INCREIBLES</h1>
+            </div>
+            
+           
+        
 
         </div>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6" id="hotel-logos-container">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" id="hotel-logos-container">
                     <img src="./img/trs-hotel-icon.png" class="img-fluid img-trs-icon" alt="TRS Hotel">
                     <img src="./img/palladium-hotel-icon.png" class="img-fluid img-palladium-icon"
                         alt="Palladium Hotel">
@@ -53,11 +68,11 @@
                                 
                         
                 </div>
-                
-                <div class="col-6">
+                <!-- FORM -->
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 row-form-container">
                     <div class="container-fluid" id="form-container">
                         <div class="form-title-container">
-                            <h4 class="form-title"> INGRESÁ TUS DATOS Y TE CONTACTAREMOS <br> A LA BREVEDAD:</h4>
+                            <h4 class="form-title"> INGRESÁ TUS DATOS Y TE CONTACTAREMOS<br> A LA BREVEDAD:</h4>
                         </div>
                         <form>
                             <div class="form-group">
@@ -91,14 +106,17 @@
                         </div>
                         </form>
                     </div>
+                    <!-- END FORM -->
                 </div>
 
                 
             </div>
         </div>
-
+<!-- END HEADER CONTAINER -->
     </div>
-
+            <div class="container-fluid">
+                <h1>holassss</h1>
+            </div>
 </body>
 
 </html>
