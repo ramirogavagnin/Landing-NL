@@ -235,71 +235,6 @@ hr {
     }
 }
 
-/* ======= 960px =========*/
-
-@media screen and (max-width: 960px) {
-    #head-background-container {
-        background-size: 100% 60%;
-        height: 46rem;
-    }
-    #head-logo-container {
-        padding-top: 0.9rem;
-    }
-    .img-logo {
-        width: 7rem !important;
-        height: 3rem !important;
-    }
-    #head-title-container {
-        margin-top: 1.6rem;
-    }
-    .background-blue-text {
-        padding-right: 0.6rem;
-        font-size: 1.7rem !important;
-    }
-    #triangle-topright {
-        border-top: 2rem solid #004ba0;
-    }
-    /* LOGOS HOTELS */
-    .img-trs-icon {
-        width: 3.6rem !important;
-        height: 3.6rem !important;
-        margin: 0rem 1rem 0rem 0.8rem;
-    }
-    .img-palladium-icon {
-        width: 10.4rem !important;
-        height: 3.4rem !important;
-    }
-    /* FORM */
-    .form-title-container {
-        padding-bottom: 0.2rem;
-    }
-    .form-title {
-        font-size: 0.75rem !important;
-        font-weight: 500 !important;
-    }
-    #form-container {
-        padding: 2rem;
-        height: 30rem !important;
-        margin-top: 1.6rem;
-        margin-right: 1.6rem !important;
-    }
-    .input {
-        margin-top: 9px;
-        font-size: 1.060rem !important;
-    }
-    .btn-primary {
-        height: 2.7rem;
-        width: 5.7rem;
-        font-size: 1.2rem !important;
-    }
-    .sub-title-container {
-        padding-top: 9rem !important;
-        width: 100%;
-    }
-    .sub-title {
-        font-size: 1.160rem !important;
-    }
-}
 
 /*======== 768px ======== */
 
@@ -749,4 +684,223 @@ hr {
         margin-top: 0.5rem;
        
     }
+}
+
+
+
+/* ======= 768px =========*/
+
+@media screen and (max-width:768px) {
+    
+    .cards-container {
+       width: 70% !important;
+       margin-top: 4rem !important;
+    }
+    .wrapper-container{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .column-container {
+        margin-top: 1rem !important;
+        margin-bottom: 3rem !important;
+    }
+    
+    .text-title {
+        font-size: 1.6rem !important;
+    }
+    .text-sub-title {
+        font-size: 1rem !important;
+    }
+    .text-header {
+        font-size: 0.9rem !important;
+    }
+    .card-logo {
+        width: 30%;
+        height: 15%;
+    }
+    .card-img {
+        height: 33rem;
+    }
+    .card-head {
+        height: 5%;
+    }
+
+    .card-price {
+        height: 17rem;
+        width: 17rem;
+       
+    }
+    
+    .text-price {
+        font-size: 2.5rem !important;
+    }
+    .text-detalle {
+        font-size: 1.1em !important;
+        
+    }
+
+    .btn-success {
+        
+        height: 3.3rem;
+        width: 9.8rem;
+        font-size: 1.5rem !important;
+    }
+    
+    .text-footer-title {
+    
+        font-size: 1.1rem !important;
+    }
+    
+    .text-footer {
+    
+        font-size: 0.80rem !important;
+        font-weight: 100;
+        margin-top: 0.5rem;
+       
+    }
+}
+
+
+
+/*======== 548px ======== */
+
+@media screen and (max-width:548px) {
+    
+    .cards-container {
+       width: 129vw !important;
+    }
+   
+    .card-img {
+        height: 32rem;
+    }
+    
+    .card-price {
+        height: 16rem;
+        width: 16rem;
+       
+    }
+    
+    .text-price {
+        font-size: 2.2rem !important;
+    }
+    .text-detalle {
+        font-size: 1em !important;
+        
+    }
+
+    .btn-success {
+        
+        height: 2.9rem;
+        width: 8rem;
+        font-size: 1.3rem !important;
+    }
+    
+    .text-footer-title {
+    
+        font-size: 1rem !important;
+    }
+    
+    .text-footer {
+    
+        font-size: 0.75rem !important;
+       
+    }
+}
+
+
+
+/*======== 375px ======== */
+
+@media screen and (max-width:375px) {
+    
+
+
+    
+    
+    .text-title {
+        font-size: 1.6rem !important;
+    }
+    .text-sub-title {
+        font-size: 1rem !important;
+    }
+    .text-header {
+        font-size: 0.9rem !important;
+    }
+    .card-logo {
+        width: 30%;
+        height: 15%;
+    }
+    .card-img {
+        height: 30rem;
+    }
+    .card-head {
+        height: 7%;
+    }
+
+    .card-price {
+        height: 15rem;
+        width: 15rem;
+       
+    }
+    
+    .btn-success {
+        
+        height: 2.4rem;
+        width: 7.5rem;
+        font-size: 1.1rem !important;
+    }
+    
+    
+}
+
+
+/*======== 320px ======== */
+
+@media screen and (max-width:320px) {
+    
+
+
+    
+    
+    .text-title {
+        font-size: 1.4rem !important;
+    }
+    .text-sub-title {
+        font-size: 0.9rem !important;
+    }
+    
+    .card-img {
+        height: 28rem;
+    }
+    .card-head {
+        height: 8%;
+    }
+
+    .card-price {
+        height: 14rem;
+        width: 14rem;
+       
+    }
+    
+    .btn-success {
+        
+        height: 2.3rem;
+        width: 6.5rem;
+        font-size: 1rem !important;
+    }
+
+    .text-footer-title {
+    
+        font-size: 0.95rem !important;
+    }
+    
+    .text-footer {
+    
+        font-size: 0.65rem !important;
+        
+       
+    }
+    
+    
 }
