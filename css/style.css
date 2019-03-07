@@ -12,7 +12,6 @@
     background-repeat: no-repeat;
     height: 70rem;
     width: 100%;
-   
 }
 
 #head-logo-container {
@@ -151,7 +150,7 @@ hr {
 }
 
 .sub-title-container {
-    padding-top: 15rem !important;
+    padding-top: 13rem !important;
     width: 100%;
 }
 
@@ -437,14 +436,12 @@ hr {
     }
 }
 
-
 /*======== 375px ======== */
 
 @media screen and (max-width: 375px) {
     #head-background-container {
         background-size: 100% 23%;
         height: 56rem;
-    
     }
     #head-logo-container {
         padding-top: 1rem;
@@ -489,7 +486,6 @@ hr {
         width: 90% !important;
         height: 30rem !important;
     }
-
     .input {
         margin-top: 8px;
         font-size: 1rem !important;
@@ -503,16 +499,12 @@ hr {
     }
 }
 
-
-
 /*======== 320px ======== */
 
 @media screen and (max-width: 320px) {
     #head-background-container {
         background-size: 100% 23%;
         height: 52rem;
-   border: 1px solid red;
-        
     }
     #head-logo-container {
         padding-top: 0.7rem;
@@ -553,12 +545,9 @@ hr {
         margin-top: 3rem;
     }
     #form-container {
-   
         height: 29rem !important;
     }
-
     .input {
-     
         font-size: 0.9rem !important;
     }
     .sub-title-container {
@@ -566,6 +555,198 @@ hr {
     }
     .sub-title {
         font-size: 0.9rem !important;
+    }
+}
+
+/* ======= H E A D E R  E N D  ========= */
+
+/* ======== C A R D S  S T Y L E S ========== */
+
+.card-title-container {
+    display: flex;
+    width: 100%;
+}
+
+.column-container {
+    margin-top: 1rem !important;
+    margin-bottom: 6rem !important;
+}
+
+.card-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    width: 50%;
+    height: 20%;
+}
+
+.text-title {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 3rem !important;
+}
+
+.text-sub-title {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 2rem !important;
+}
+
+.text-header {
+    color: white;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.5rem !important;
+}
+
+.card-logo {
+    width: 30%;
+    height: 15%;
+}
+
+.card-img {
+    background-image: url('../img/palladium-hotel-card.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-head {
+    width: 100%;
+    height: 7%;
+    background-color: #004ba0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-price {
+    height: 22rem;
+    width: 22rem;
+    background-color: white;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-price {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 3rem !important;
+    font-weight: 500;
+}
+
+.text-detalle {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+}
+
+.card-button {
+    padding-bottom: 1.8rem !important;
+}
+
+.btn-success {
+    color: white !important;
+    background-color: #004ba0 !important;
+    text-transform: uppercase !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+    height: 4rem;
+    width: 12rem;
+    font-size: 2rem !important;
+}
+
+.text-footer-title {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.4rem !important;
+    font-weight: 300;
+    margin: 0 !important;
+}
+
+.text-footer {
+    color: #004ba0;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin: 0 !important;
+}
+
+/* CARDS MEDIA QUERYS */
+
+/* ======= 1140px ======= */
+
+@media screen and (max-width: 1140px) {
+    .column-container {
+        margin-top: 0.5rem !important;
+        margin-bottom: 5rem !important;
+    }
+    .text-title {
+        font-size: 2.2rem !important;
+    }
+    .text-sub-title {
+        font-size: 1.2rem !important;
+    }
+    .text-header {
+        font-size: 1rem !important;
+    }
+    .card-logo {
+        width: 35%;
+        height: 20%;
+    }
+    .card-img {
+        height: 35rem;
+    }
+    .card-head {
+        height: 6%;
+    }
+
+    .card-price {
+        height: 19rem;
+        width: 19rem;
+       
+    }
+    
+    .text-price {
+        font-size: 2.8rem !important;
+    }
+    .text-detalle {
+        font-size: 1.2em !important;
+        
+    }
+
+    .btn-success {
+        
+        height: 3.5rem;
+        width: 10rem;
+        font-size: 1.8rem !important;
+    }
+    
+    .text-footer-title {
+    
+        font-size: 1.2rem !important;
+    }
+    
+    .text-footer {
+    
+        font-size: 0.85rem !important;
+        font-weight: 100;
+        margin-top: 0.5rem;
        
     }
 }
