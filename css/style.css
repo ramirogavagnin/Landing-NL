@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1.5rem;
+    opacity: 0 !important;
 }
 
 .img-logo {
